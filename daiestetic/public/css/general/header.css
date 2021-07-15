@@ -1,0 +1,37 @@
+.contactinfo99 {
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #D49584;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.contactinfo99 h4 {
+    margin-right: 10px;
+    font-size: 0.8em;
+}
+
+#logo {
+    max-width: 40vw;
+    max-height: 30vh;
+}
+
+.logoybuscador99 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logoybuscador99 input {
+    width: 45vw;
+}
+
+.logoybuscador99 form {
+    padding-left: 8vw;
+}
+
+::placeholder {
+    font-family: 'Open Sans', sans-serif;
+}
