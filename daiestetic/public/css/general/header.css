@@ -1,37 +1,140 @@
-.contactinfo99 {
-    padding-left: 12px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    background-color: #D49584;
-    display: flex;
-    justify-content: flex-end;
+/* ------------------MOBILE-------------------*/
 
+.containerHeader99 {
+    background-image: url(/images/4cc0gu.png);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
-.contactinfo99 h4 {
-    margin-right: 10px;
-    font-size: 0.8em;
+.menu98 {
+    display: none;
 }
 
 #logo {
     max-width: 40vw;
-    max-height: 30vh;
+    max-height: 20vh;
+    padding-left: 20px;
 }
 
-.logoybuscador99 {
+.containerHeader99 a {
+    margin-right: 5vw;
+    padding-bottom: 10px;
+}
+
+.containerHeader99 i {
+    padding-left: 10px;
+}
+
+/* ------------------DROPDOWN MENU MOBILE SIZE-------------------*/
+
+.dropdown97a i {
+    padding-left: 10px;
+}
+
+.dropdown97ul {
+    display: none;
+    position: absolute;
+    right: 0.25rem;
+    top: 12vh;
+    z-index: 1;
+    background-color: rgb(158, 132, 173) ;
+    animation: growDown 400ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+@keyframes growDown {
+    0% {
+      transform: scaleY(0)
+    }
+    70% {
+      transform: scaleY(1.05)
+    }
+    100% {
+      transform: scaleY(1)
+    }
+}
+
+#dropdown98art:hover .dropdown97ul {
+    display: block;
+}
+
+.dropdown97ul li {
+    padding: 1.1rem;
+
+}
+
+.dropdown97ul li a {
+    color:#ffffff;
+}
+
+.dropdown97ul li:hover {
+    background-color: rgb(96, 76, 107);
+}
+
+#dropdown98art {
+    margin-bottom: 10px;
+}
+
+
+
+/* ------------------DESKTOP-------------------*/
+
+@media (min-width: 1100px) {
+
+.menu98 {
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    margin-right: 5vw;
+
+}
+.opcionMenu97 {
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+
 }
 
-.logoybuscador99 input {
-    width: 45vw;
+.dropdown {
+    display: none;
 }
 
-.logoybuscador99 form {
-    padding-left: 8vw;
+/* -------------Animation nav bar-------------*/
+.menu98 a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+.menu98 a:hover:after { 
+    width: 100%; 
+    left: 0; 
 }
 
-::placeholder {
-    font-family: 'Open Sans', sans-serif;
+.menu98 a {
+    position: relative;
 }
+
+/* -----------------------------------------*/
+
+
+#dropdown98art {
+    display: none;
+}
+
+.containerHeader99 a {
+    margin-right: 2.4vw;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+
+}
+  

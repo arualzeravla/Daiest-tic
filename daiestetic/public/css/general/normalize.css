@@ -6,5 +6,13 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url("/images/fondobeige.PNG")
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul, ol{
+    list-style-type: none;
 }
