@@ -1,2 +1,2 @@
-Earth light brown
-#D49584
+Purple
+rgb(96, 76, 107)

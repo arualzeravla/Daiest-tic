@@ -1,0 +1,54 @@
+footer {
+    background-color: rgb(96, 76, 107);
+    color: white;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footerflex100 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logoMarcas99 {
+    width: 55vw;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logoMarcas99 img {
+    max-width: 20vw;
+    margin: 10px 5px;
+    border-radius: 9%;
+}
+
+.footerlinks99 a {
+    color: white;
+}
+
+.footerlinks99 {
+    width: 45vw;
+}
+
+.footerlinks99 ul {
+    padding-left: 8vw;
+    padding-top: 8vh;
+}
+
+.footerlinks99 li {
+    padding-bottom: 15px;
+}
+
+footer p {
+    margin-top: 25px;
+    text-align: right;
+    
+}
+
+
+
+
+
+
+
